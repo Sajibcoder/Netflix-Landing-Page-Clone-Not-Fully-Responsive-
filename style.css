@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bac-img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(IN-en-20230103-popsignuptwoweeks-perspective_alpha_website_medium.jpg) no-repeat center center/cover;
+
+}
+.bac-img::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+#logo{
+    width: 200px;
+    position: relative;
+    z-index: 3;
+    padding: 30px;
+}
+.submit{
+    background-color: #ef0914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px 15px;
+    z-index: 4;
+    float: right;
+    position: relative;
+    right: 30px;
+    margin-top: 30px;
+    
+}
+#option{
+    cursor: pointer;
+    padding: 6px 8px;
+    z-index: 4;
+    float: right;
+    position: relative;
+    right: 60px;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+@media(max-width: 450px){
+    
+    .top{
+        padding: 25px 0px 0px 25px;
+    }
+    .top #logo{
+        width: 100%;
+    }
+    .back-img background{
+        height: 40vh;
+    
+    }
+    
+}
+@media(max-width: 450px) and (min-width:350px){
+    .top #logo{
+        width: 50%;
+        left: -30px;
+        margin-top: 3px;
+    }
+    .top .submit{
+         left: -20px;
+        padding: 3px 5px;
+    }
+    .top select{
+        position: relative;
+       left: -35px;
+        padding: 2px 4px;
+    }
+}
+.middle-name{
+    z-index: 3;
+    position: relative;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#p{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+#email{
+    font-size: 15px;
+    padding: 15px;
+    width: 500px;
+    border: 2px black;
+}
+#submit{
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px 9px;
+    background-color: #ef0914;
+    color: white;
+    border: 2px black;
+}
+
+@media(max-width: 1050px){
+    .bac-img{
+        height: 90vh;
+    }
+}
+@media(max-width: 950px){
+    .bac-img{
+        height: 80vh;
+    }
+
+    #h1{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    #h4{
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+    #p{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    #email{
+        font-size: 15px;
+        padding: 10px;
+        width: 400px;
+        border: 2px black;
+    }
+    #submit{
+        font-size: 15px;
+        padding: 10px 5px;
+        background-color: #ef0914;
+        color: white;
+        border: 2px black;
+    }
+
+
+    .first .first-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .first .first-container .left-column{
+        width: 100%;
+        text-align: center;
+    }
+    .first .first-container .right-column{
+        width: 100%;
+        
+    
+}
+
+
+.first .second-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.first .second-container .left-column{
+    width: 100%;
+    
+}
+.first .second-container .right-column{
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+}
+@media(max-width: 550px){
+.middle-name{
+    position: relative;
+    top: 80px;
+}
+    
+.bac-img{
+        height: 65vh;
+    }
+    #h1{
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    #h4{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+#email{
+        font-size: 15px;
+        padding: 10px;
+        width: 350px;
+        border: 2px black;
+        margin-bottom: 12px;
+    }
+    #submit{
+        font-size: 15px;
+        padding: 10px 3px;
+        background-color: #ef0914;
+        color: white;
+        border: 2px black;
+    }
+    #p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .first .first-container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+
+    @media(max-width: 430px){
+        .middle-name{
+            position: relative;
+            top: 50px;
+        }
+        .bac-img{
+            height: 60vh;
+        }
+        #h1{
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        #h4{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        #email{
+            font-size: 12px;
+            padding: 10px;
+            width: 330px;
+            border: 2px black;
+            margin-bottom: 10px;
+        }
+        #submit{
+            font-size: 12px;
+            padding: 10px 3px;
+            background-color: #ef0914;
+            color: white;
+            border: 2px black;
+        }
+        #p{
+            font-size: 15px;
+            padding: 5px;
+            margin: 2px;
+            margin-bottom: 15px;
+        }
+       
+}
+
+.first .first-container{
+    display: flex;
+    background-color: rgb(9, 1, 1);
+    border-top: 10px solid rgb(34, 23, 23);
+    padding: 0px 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.first .first-container .left-column{
+    padding-top: 13%;
+    padding-right:  2%;
+   
+}
+.first .first-container .left-column h1{
+    font-size: 50px;
+    color: white;
+}
+.first .first-container .left-column h3{
+    font-weight: normal;
+    margin-top: 6%;
+    color: white;
+}
+.first .first-container .right-column {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+.first .first-container .right-column img{
+    position: absolute;
+    width: 100%;
+}
+.first .first-container .right-column video{
+    margin-left: 16%;
+    margin-top: 12%;
+    width: 60%;
+}
+.first .first-container .right-column .our-story-card-video1{
+    width: 73%;
+    margin-top: 16%;
+    margin-left: 13%;
+}
+
+.first .second-container{
+    display: flex;
+    background-color: rgb(9, 1, 1);
+    border-top: 10px solid rgb(34, 23, 23);
+    padding: 0px 80px;
+    padding-bottom: 90px;
+}
+.first .second-container .left-column img{
+width: 100%;
+}
+.first .second-container .right-column{
+    padding: 13%;
+    padding-right: 2%;
+    width: 50%;
+
+}
+.first .second-container .right-column h1{
+    color: white;
+    
+}
+
+.first .second-container .right-column h3{
+    color: white;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-top: 5%;
+}
+.first .second-container .left-column .box{
+    border: 2px solid rgb(28, 17, 17);
+    background-color: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: -25px;
+}
+.first .second-container .left-column .box .box-img{
+    width: 20%;
+}
+.first .second-container .left-column .box p{
+    margin-left: 6%;
+    margin-top: 3%;
+    color: white;
+}
+
+.first .second-container .left-column .box p a{
+    text-decoration: none;
+}
+.first .second-container .left-column .box .gif{
+    width: 20%;
+    position: relative;
+   height: 20%;
+   margin-left: 80px;
+}
+h4{
+    color: white;
+}
+
+
+.questions{
+    background-color: rgb(9, 1, 1);
+    border-top: 10px solid rgb(34, 23, 23);
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.questions h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.questions button{
+    border: none;
+    background-color: #352f2f;
+    color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    font-size: 26px;
+    padding: 18px;
+    margin-bottom:8px ;
+}
+.questions svg{
+    width: 3%;
+    position: absolute;
+    right: 20px;
+}
+.questions .ans1{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+.questions .ans2{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+.questions .ans3{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+.questions .ans4{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+.questions .ans5{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+.questions .ans6{
+    background-color: rgb(39, 36, 36);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 25px;
+    display: none;
+    color: white;
+    padding: 30px 50px;
+}
+
+.email-container{
+    background-color:   rgb(9, 1, 1);
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    width: 100%;
+}
+.email-container p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(9, 1, 1);
+    border-top:10px solid rgb(34, 23, 23) ;
+    padding-top: 5%;
+
+}
+footer h5{
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+footer .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    max-width: 1350px;
+}
+footer.first-container .middle-box{
+    width: 50%;
+    transition: all 0.5% ease;
+
+}
+footer .footer-content p{
+text-align: justify;
+}
+footer .footer-content .middle-box{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+footer .footer-content .middle-box p{
+    color: white;
+}
+footer .footer-content .middle-box select{
+    padding: 6px;
+}
+footer .footer-content .middle-box select{
+    background-color: black;
+    color: white;
+}
+footer .footer-content .middle-box a{
+    line-height: 40px;
+    color: rgb(193, 186, 211);
+    text-decoration: none;
+}
+footer .footer-content .middle-box a:hover{
+    text-decoration: underline;
+}
+
+
